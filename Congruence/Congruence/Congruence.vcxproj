@@ -74,6 +74,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\8.1\;C:\Users\Tyler\Desktop\SDK\vstSDK369\VST_SDK\VST3_SDK;C:\Program Files (x86)\Windows Kits\10\Include\</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -110,6 +111,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="congFileHandler.h" />
+    <ClInclude Include="module.h" />
+    <ClInclude Include="optional.h" />
+    <ClInclude Include="uid.h" />
+    <ClInclude Include="viewType.h" />
+    <ClInclude Include="vst3Header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

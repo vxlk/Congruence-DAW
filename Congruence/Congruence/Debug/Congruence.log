@@ -1,0 +1,13 @@
+﻿  main.cpp
+c:\users\tyler\documents\visual studio 2015\projects\congruence\congruence\vst3header.h(42): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\tyler\documents\visual studio 2015\projects\congruence\congruence\vst3header.h(51): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\tyler\documents\visual studio 2015\projects\congruence\congruence\vst3header.h(53): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\tyler\desktop\sdk\vstsdk369\vst_sdk\vst3_sdk\public.sdk\source\vst\vstparameters.cpp(41): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\tyler\documents\visual studio 2015\projects\congruence\congruence\vst3header.h(182): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\tyler\documents\visual studio 2015\projects\congruence\congruence\vst3header.h(183): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\tyler\documents\visual studio 2015\projects\congruence\congruence\viewtype.h(36): warning C4091: 'static ': ignored on left of 'const View::commandLine::ErrorType' when no variable is declared
+c:\users\tyler\documents\visual studio 2015\projects\congruence\congruence\main.cpp(18): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\tyler\documents\visual studio 2015\projects\congruence\congruence\main.cpp(10): warning C4101: 'isGui': unreferenced local variable
+c:\users\tyler\documents\visual studio 2015\projects\congruence\congruence\viewtype.h(45): warning C4172: returning address of local variable or temporary
+  Congruence.vcxproj -> c:\users\tyler\documents\visual studio 2015\Projects\Congruence\Debug\Congruence.exe
+  Congruence.vcxproj -> c:\users\tyler\documents\visual studio 2015\Projects\Congruence\Debug\Congruence.pdb (Partial PDB)

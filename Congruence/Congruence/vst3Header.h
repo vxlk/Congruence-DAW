@@ -52,10 +52,13 @@ See license file for details.
 #include <Include/um\Windows.h> //win 8.1
 #elif __has_include("10.0.14393.0\um\Windows.h")
 #include <10.0.14393.0\um\Windows.h> //win 10
-#endif
+#endif //windows path
+#endif //windows
+
+///NEED ANDROID HEADERSSSS
 
 /*additional include directory needed for vstsdk*/
-/*C:\Users\Tyler\Desktop\SDK\vstSDK369\VST_SDK\VST3_SDK*/
+/*C:\...\vstSDK369\VST_SDK\VST3_SDK*/
 #include <base/source/fstring.h>
 #include <pluginterfaces/base/conststringtable.h>
 #include <pluginterfaces/base/funknown.h>
@@ -132,5 +135,51 @@ namespace Steinberg
 		DEF_CLASS_IID(IPluginFactory3)
 		DEF_CLASS_IID(IPlugViewContentScaleSupport)
 }
-#endif /*windows*/
+
+//==============================================================================
+#undef ASSERT
+#undef WARNING
+#undef PRINTSYSERROR
+#undef DEBUGSTR
+#undef DBPRT0
+#undef DBPRT1
+#undef DBPRT2
+#undef DBPRT3
+#undef DBPRT4
+#undef DBPRT5
+#undef min
+#undef max
+#undef MIN
+#undef MAX
+#undef calloc
+#undef free
+#undef malloc
+#undef realloc
+#undef NEW
+#undef NEWVEC
+#undef VERIFY
+#undef VERIFY_IS
+#undef VERIFY_NOT
+#undef META_CREATE_FUNC
+#undef CLASS_CREATE_FUNC
+#undef SINGLE_CREATE_FUNC
+#undef _META_CLASS
+#undef _META_CLASS_IFACE
+#undef _META_CLASS_SINGLE
+#undef META_CLASS
+#undef META_CLASS_IFACE
+#undef META_CLASS_SINGLE
+#undef SINGLETON
+#undef OBJ_METHODS
+#undef QUERY_INTERFACE
+#undef LICENCE_UID
+#undef BEGIN_FACTORY
+#undef DEF_CLASS
+#undef DEF_CLASS1
+#undef DEF_CLASS2
+#undef DEF_CLASS_W
+#undef END_FACTORY
+#undef void c_decl free(void *_Block)
+#undef _malloc_dbg(s, _NORMAL_BLOCK, __FILE__, __LINE__)
+
 #endif /*vst3sdk*/

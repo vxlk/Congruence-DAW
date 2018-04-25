@@ -14,4 +14,29 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="module.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vst3Header.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uid.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="optional.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewType.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="congFileHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
